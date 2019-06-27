@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_FName"
+            android:inputType="text"
+            android:autofillHints="firstName"
+            android:hint="@string/string_hint_fname"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_LName"
+            android:inputType="text"
+            android:autofillHints="lastName"
+            android:hint="@string/string_hint_lname"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_email"
+            android:inputType="textEmailAddress"
+            android:autofillHints="email"
+            android:hint="@string/string_hint_email"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_phone"
+            android:inputType="phone"
+            android:autofillHints="phone"
+            android:hint="@string/string_hint_phone"
+            android:textSize="@dimen/edit_text_size"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/button_submit"
+            android:text="@string/string_button_submit"
+            android:textSize="@dimen/button_text_size"/>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

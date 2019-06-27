@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Loyalty Sign Up Screen</string>
+    <string name="string_hint_fname">First Name</string>
+    <string name="string_hint_lname">Last Name</string>
+    <string name="string_hint_email">Email Address</string>
+    <string name="string_hint_phone">Phone Number</string>
+    <string name="string_button_submit">Submit</string>
+</resources>
